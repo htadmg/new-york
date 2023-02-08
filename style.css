@@ -16,13 +16,14 @@ background-color:#F2F2F2 ;
 
 h1{
    
-    padding: 380px;
+    padding: 500px;
+    font-size: 1.5em;
     text-align: center;
 }
 
 h1.header{
     background-image: url(imagens/01.jpg);
-    background-position: center center;
+    background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -30,22 +31,21 @@ h1.header{
 
 h1.body1{
     background-image: url(imagens/03.jpg);
-    background-position: center top;
+    background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;  
 }
 h1.body2{
     background-image: url(imagens/02.jpg);
-    background-position: center bottom;
+    background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;  
 }
 
-
 p{
-    padding: 90px;
+    padding: 30px;
     line-height: 2em;
     text-align: center;
     font-size: 20px;
@@ -70,10 +70,10 @@ footer{
     background-attachment: fixed;
 
 
-    padding: 200px; 
+    padding: 400px; 
     text-align: center;
     color: white;
-    font-weight: bolder; 
+    font-weight:bolder; 
 
     
 }
@@ -83,4 +83,8 @@ footer>a{
     font-weight: bolder;
     
     
+}
+footer>a:hover{
+    text-decoration: underline;
+    color: #222126;
 }
