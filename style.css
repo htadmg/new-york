@@ -7,18 +7,19 @@
     padding: 0;
 }
 
-body{
+body, footer{
     font-family: 'Lato', sans-serif;
     background-color:#F2F2F2 ;
-    min-height: 100vh;
+    max-height: 100vw;
 }
 
 
 h1{
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.747);
-    padding: 50vw;
+    padding:45vw;
     font-size: 3vw;
     text-align: center;
+    
    
 }
 h1.header{
@@ -66,7 +67,7 @@ footer{
     background-attachment: fixed;
 
 
-    padding: 20vw; 
+    padding: 40vw; 
     text-align: center;
     color: white;
     font-weight:bolder; 
